@@ -19,3 +19,8 @@ PsychopompOS ships with a hardened baseline, but further configuration is recomm
 - Regularly run:
 ```bash
 sudo apt update && sudo apt upgrade -y
+```
+Monitoring
+Use logwatch for daily reports.
+
+Monitor network with vnstat, iftop, and mtr.
