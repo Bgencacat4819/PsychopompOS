@@ -19,3 +19,7 @@ This project is a Debian 13 (Trixie) derivative optimized for server environment
 2. Create a new branch:  
    ```bash
    git checkout -b feature/your-feature-name
+
+3. Commit changes with clear messages.
+4. Submit a Pull Request (PR) to the main branch.
+5. Reference related issues in the PR description.
