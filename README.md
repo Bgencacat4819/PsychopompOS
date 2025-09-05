@@ -5,7 +5,7 @@ It delivers a preconfigured, security‑hardened platform with a curated package
 
 ## 📥 Download
 
-The latest stable release of **PsychopompOS** is available on SourceForge.
+The latest stable release of **PsychopompOS - Server Edition** is available on SourceForge.
 
 [⬇️ Download PsychopompOS ISO](https://sourceforge.net/projects/psychopompos/files/latest/download)
 
