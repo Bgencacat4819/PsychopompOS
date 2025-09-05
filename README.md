@@ -50,14 +50,6 @@ Full documentation is available in the [`/docs`](docs) directory:
 
 ---
 
-## 🖼️ Screenshots
-
-| Desktop Environment | Webmin Dashboard | phpMyAdmin |
-|---------------------|------------------|------------|
-| ![Desktop](assets/images/desktop-screenshot.png) | ![Webmin](assets/images/webmin-dashboard.png) | ![phpMyAdmin](assets/images/phpmyadmin.png) |
-
----
-
 ## 📦 Package Highlights
 
 See the full [Package List](docs/packages.md) for details.
