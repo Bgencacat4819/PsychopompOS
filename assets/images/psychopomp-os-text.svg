@@ -1,0 +1,55 @@
+<svg width="1600" height="320" viewBox="0 0 1600 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 80s neon orange gradient -->
+    <linearGradient id="neonOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A00"/>
+      <stop offset="50%" stop-color="#FF6A00"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+
+    <!-- Outer glow -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6" result="blur1"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="12" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle inner stroke for crispness -->
+    <linearGradient id="innerStroke" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF2E0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFD4A3" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background is transparent by default -->
+  <g transform="translate(800,170)" text-anchor="middle">
+    <text
+      x="0" y="0"
+      font-size="168"
+      font-weight="700"
+      letter-spacing="2"
+      font-family="Eurostile Extended, Microgramma D Extended, Bank Gothic, Orbitron, Michroma, Audiowide, sans-serif"
+      fill="url(#neonOrange)"
+      filter="url(#glow)">
+      PsychopompOS
+    </text>
+
+    <!-- Thin inner stroke to enhance neon look -->
+    <text
+      x="0" y="0"
+      font-size="168"
+      font-weight="700"
+      letter-spacing="2"
+      font-family="Eurostile Extended, Microgramma D Extended, Bank Gothic, Orbitron, Michroma, Audiowide, sans-serif"
+      fill="none"
+      stroke="url(#innerStroke)"
+      stroke-width="2">
+      PsychopompOS
+    </text>
+  </g>
+</svg>
+
