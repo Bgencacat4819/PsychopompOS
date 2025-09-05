@@ -11,7 +11,12 @@ It combines the stability and long-term support of Debian with an expanded, secu
 
 The latest stable release is **v0.6.0**.
 
-[⬇️ Download PsychopompOS ISO from SourceForge](https://sourceforge.net/projects/psychopompos/files/latest/download)
+<a href="https://bocaletto-luca.github.io/PsychopompOS/index.html" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Visit%20Website-00bfff?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit Website">
+</a>
+<a href="https://sourceforge.net/projects/psychopompos/files/latest/download" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Download%20on-SourceForge-orange?style=for-the-badge&logo=sourceforge&logoColor=white" alt="Download on SourceForge">
+</a>
 
 ---
 
@@ -37,10 +42,6 @@ Full documentation is available in the [`/docs`](docs) directory:
 - [Security Guidelines](docs/security.md)
 - [Package List](docs/packages.md)
 - [Download Instructions](docs/download.md)
-
-<a href="https://sourceforge.net/projects/psychopompos/files/latest/download" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Download%20on-SourceForge-orange?style=for-the-badge&logo=sourceforge&logoColor=white" alt="Download on SourceForge">
-</a>
 
 ---
 
