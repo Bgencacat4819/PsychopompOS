@@ -3,6 +3,14 @@
 **PsychopompOS** is a Debian 13 (Trixie) derivative, purpose‑built for **server environments** and **cybersecurity operations**.  
 It delivers a preconfigured, security‑hardened platform with a curated package set, enabling rapid deployment for hosting, network services, and secure remote administration.
 
+## 📥 Download
+
+The latest stable release of **PsychopompOS** is available on SourceForge.
+
+[⬇️ Download PsychopompOS ISO](https://sourceforge.net/projects/psychopompos/files/latest/download)
+
+**SHA‑256 checksum**:
+
 ---
 
 ## Overview
