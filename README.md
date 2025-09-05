@@ -9,7 +9,7 @@ It combines the stability and long-term support of Debian with an expanded, secu
 
 ## 📥 Download
 
-The latest stable release is **v0.6.0**.
+The latest stable release is **v0.6.0**. File Download in SourceForge Webisite
 
 <a href="https://bocaletto-luca.github.io/PsychopompOS/index.html" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Visit%20Website-00bfff?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit Website">
