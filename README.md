@@ -13,16 +13,6 @@ The latest stable release is **v0.6.0**.
 
 [⬇️ Download PsychopompOS ISO from SourceForge](https://sourceforge.net/projects/psychopompos/files/latest/download)
 
-**SHA‑256 checksum**:
-```
-<insert-sha256-checksum-here>
-```
-
-Verify the integrity of the ISO after download:
-```bash
-sha256sum -c PsychopompOS.iso.sha256
-```
-
 ---
 
 ## 🚀 Key Features
