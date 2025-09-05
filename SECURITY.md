@@ -1,26 +1,31 @@
-# Code of Conduct
+# Security Policy
 
-## Our Pledge
-We pledge to make participation in the PsychopompOS community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity, level of experience, nationality, personal appearance, race, religion, or sexual identity.
+## Supported Versions
+Only the latest stable release of PsychopompOS receives security updates.
 
-## Our Standards
-Examples of positive behavior:
-- Using welcoming and inclusive language.
-- Being respectful of differing viewpoints.
-- Gracefully accepting constructive criticism.
-- Focusing on what is best for the community.
+| Version  | Supported          |
+|----------|--------------------|
+| v0.6.x   | ✅ Yes              |
+| < v0.6.0 | ❌ No               |
 
-Examples of unacceptable behavior:
-- Harassment or discrimination.
-- Trolling, insulting, or derogatory comments.
-- Publishing others’ private information without consent.
+## Reporting a Vulnerability
+If you discover a security vulnerability in PsychopompOS:
 
-## Enforcement
-Instances of abusive behavior may be reported to the project maintainers at:
+1. **Do not** open a public issue.
+2. Contact the maintainer directly at: [Insert secure contact email or GitHub Security Advisory link].
+3. Provide:
+   - A detailed description of the vulnerability.
+   - Steps to reproduce.
+   - Potential impact.
+   - Suggested fix (if available).
 
-**Security Contact:** [Insert contact email or GitHub profile link]
+We will:
+- Acknowledge receipt within 48 hours.
+- Provide an estimated timeline for a fix.
+- Credit you in the release notes if desired.
 
-All complaints will be reviewed and investigated promptly.
-
-## Attribution
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/) version 2.1.
+## Security Best Practices
+- Change all default passwords after installation.
+- Keep the system updated with `apt upgrade`.
+- Restrict SSH access and use key-based authentication.
+- Enable UFW firewall with only required ports open.
