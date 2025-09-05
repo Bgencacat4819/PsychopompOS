@@ -1,118 +1,110 @@
 # PsychopompOS
 
-**PsychopompOS** is a Debian 13 (Trixie) derivative, purpose‑built for **server environments** and **cybersecurity operations**.  
-It delivers a preconfigured, security‑hardened platform with a curated package set, enabling rapid deployment for hosting, network services, and secure remote administration.
+![PsychopompOS Logo](assets/images/psychopomp-os-bg2.png)
+
+**PsychopompOS** is a GNU/Linux distribution derived from **Debian 13 (Trixie)**, engineered for **server environments** and **cybersecurity operations**.  
+It combines the stability and long-term support of Debian with an expanded, security-focused package set and preconfigured services for rapid deployment.
+
+---
 
 ## 📥 Download
 
-The latest stable release of **PsychopompOS - Server Edition** is available on SourceForge.
+The latest stable release is **v0.6.0**.
 
-[⬇️ Download PsychopompOS ISO](https://sourceforge.net/projects/psychopompos/files/latest/download)
+[⬇️ Download PsychopompOS ISO from SourceForge](https://sourceforge.net/projects/psychopompos/files/latest/download)
 
-**SHA‑256**
+**SHA‑256 checksum**:
+```
+<insert-sha256-checksum-here>
+```
 
----
-
-## Overview
-
-PsychopompOS is designed for professionals who require a stable, predictable, and secure server operating system.  
-It combines the proven reliability of Debian with an expanded toolkit for web hosting, mail services, software development, and network analysis.
-
-Key design principles:
-- **Security first**: firewall, intrusion prevention, and SSL/TLS automation.
-- **Service‑ready**: preinstalled and configured core server components.
-- **Offline‑capable**: critical administration tools included as local `.deb` packages.
-- **Debian compatibility**: full access to Debian repositories and updates.
-
-<img width="1340" height="900" alt="Copilot_20250904_201722" src="https://github.com/user-attachments/assets/b350c032-8b7c-4d33-bae5-adf0499b86e3" />
+Verify the integrity of the ISO after download:
+```bash
+sha256sum -c PsychopompOS.iso.sha256
+```
 
 ---
 
-## Security Orientation
+## 🚀 Key Features
 
-- **UFW** firewall preinstalled and ready for configuration.
-- **Fail2ban** for intrusion prevention and brute‑force mitigation.
-- Network analysis and diagnostics tools (nmap, tcpdump, arp‑scan, mtr, etc.).
-- **Certbot** for automated SSL/TLS certificate management.
-- All packages sourced from Debian repositories or trusted upstreams.
-
----
-
-## Additional Packages Compared to Debian 13 Standard Install
-
-Beyond the default Debian 13 “standard” + “ssh‑server” task, PsychopompOS includes:
-
-### Web Server & Database
-- apache2, apache2-utils, libapache2-mod-php
-- mariadb-server, mariadb-client
-- php and modules: php-cli, php-common, php-mysql, php-curl, php-gd, php-xml, php-mbstring, php-zip, php-intl, php-bcmath, php-imagick
-
-### Mail Server & Webmail
-- postfix
-- dovecot-imapd, dovecot-pop3d, dovecot-lmtpd
-- roundcube, roundcube-plugins-extra
-- mailutils
-
-### Programming & Build Tools
-- python3, python3-pip, python3-venv, python3-dev
-- openjdk-17-jdk
-- nodejs, npm
-- git, build-essential, make, cmake
-
-### Networking & Security
-- curl, wget, aria2
-- net-tools, iproute2
-- openssh-server, vsftpd, lftp, rsync
-- htop, screen, tmux
-- ufw, fail2ban
-- nmap, traceroute, telnet, dnsutils, whois
-- arp-scan, ethtool, tcpdump, iftop, vnstat, mtr, netcat-openbsd
-
-### Compression & Archiving
-- zip, unzip, p7zip-full, tar, xz-utils
-
-### Editors & Utilities
-- nano, vim, mc
-- bash-completion, tree, ncdu
-- man-db, manpages, mlocate
-
-### Additional Tools
-- gnupg, gnupg2
-- logwatch, needrestart
-- certbot, python3-certbot-apache
-- software-properties-common, lsb-release, ca-certificates, openssl, apt-transport-https
+- **Debian 13 Base** – Stability, security updates, and full repository compatibility.
+- **Preinstalled LAMP Stack** – Apache2, MariaDB, PHP with common modules.
+- **Secure Mail Server** – Postfix, Dovecot, Roundcube with extra plugins.
+- **Security Tools** – UFW firewall, Fail2ban, nmap, tcpdump, arp-scan, mtr, netcat-openbsd.
+- **Development Environment** – Python 3, OpenJDK 17, Node.js, npm, Git, build-essential.
+- **Offline Administration Tools** – phpMyAdmin, Webmin, tgpt CLI tool bundled as `.deb` packages.
+- **Optimized Defaults** – System branding, tuned configurations, essential services enabled by default.
 
 ---
 
-## Local `.deb` Packages Included
+## 📂 Documentation
 
-To ensure availability in offline installations, the following administration tools are bundled as local `.deb` packages and installed automatically:
+Full documentation is available in the [`/docs`](docs) directory:
 
-- **phpMyAdmin** – Web interface for MariaDB/MySQL management.
-- **Webmin** – Web‑based system administration panel.
-- **tgpt** – Command‑line interface for GPT‑based AI models.
-
----
-
-## Intended Use Cases
-
-- Web hosting (LAMP stack ready out‑of‑the‑box)
-- Secure mail server deployment
-- Development server for teams and CI/CD environments
-- Cybersecurity labs and training environments
-- Network monitoring and management nodes
+- [Overview](docs/overview.md)
+- [Installation Guide](docs/installation.md)
+- [Post-Installation Guide](docs/post-install.md)
+- [Security Guidelines](docs/security.md)
+- [Package List](docs/packages.md)
+- [Download Instructions](docs/download.md)
 
 ---
 
-## License
+## 🖼️ Screenshots
+
+| Desktop Environment | Webmin Dashboard | phpMyAdmin |
+|---------------------|------------------|------------|
+| ![Desktop](assets/images/desktop-screenshot.png) | ![Webmin](assets/images/webmin-dashboard.png) | ![phpMyAdmin](assets/images/phpmyadmin.png) |
+
+---
+
+## 📦 Package Highlights
+
+See the full [Package List](docs/packages.md) for details.
+
+- **Web Server & Database**: Apache2, MariaDB, PHP modules
+- **Mail Server & Webmail**: Postfix, Dovecot, Roundcube
+- **Security Tools**: UFW, Fail2ban, nmap, tcpdump
+- **Development Tools**: Python 3, OpenJDK 17, Node.js, npm, Git
+- **Utilities**: htop, screen, tmux, certbot, logwatch
+
+---
+
+## 🛡️ Security
+
+PsychopompOS ships with a hardened baseline configuration.  
+See [Security Guidelines](docs/security.md) for recommended post-install hardening steps.
+
+---
+
+## 🗓️ Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a full list of changes.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before submitting pull requests.
+
+---
+
+## 📢 Community & Support
+
+- **Issues**: Use the [GitHub Issues](../../issues) page to report bugs or request features.
+- **Discussions**: Join the [GitHub Discussions](../../discussions) for general questions.
+- **Security Reports**: Follow the process in [SECURITY.md](SECURITY.md).
+
+---
+
+## 📜 License
 
 PsychopompOS is released under the **GNU General Public License v3.0**.  
 See the [LICENSE](LICENSE) file for full terms.
 
 ---
 
-## Author
+© 2025 Bocaletto Luca – PsychopompOS Project
 
-**Bocaletto Luca**  
-GitHub: [bocaletto-luca](https://github.com/bocaletto-luca)  
-Repository: [PsychopompOS](https://github.com/bocaletto-luca/PsychopompOS)
+---
