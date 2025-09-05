@@ -24,6 +24,8 @@ Key design principles:
 - **Offline‑capable**: critical administration tools included as local `.deb` packages.
 - **Debian compatibility**: full access to Debian repositories and updates.
 
+<img width="1340" height="900" alt="Copilot_20250904_201722" src="https://github.com/user-attachments/assets/b350c032-8b7c-4d33-bae5-adf0499b86e3" />
+
 ---
 
 ## Security Orientation
